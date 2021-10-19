@@ -1,0 +1,19 @@
+.header {
+  top: 0;
+
+  .list-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0 30% 0 30%;
+    padding: 0.5%;
+    li {
+      padding: 1%;
+      font-size: 1.2em;
+      border: 1px solid white;
+      &:hover {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .skills-container {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10%;
+  }
+}
