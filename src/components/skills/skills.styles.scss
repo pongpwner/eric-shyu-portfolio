@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
   background-color: #1e2529;
+  height: 44vh;
+  h2 {
+    font-size: 2rem;
+  }
   .skills-container {
     width: 50vw;
     display: grid;
