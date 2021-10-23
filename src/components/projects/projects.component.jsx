@@ -1,13 +1,15 @@
 import React from "react";
 import "./projects.styles.scss";
 import Project from "../project/project.component";
+import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 
 const projects = [
   {
     name: "online garage sale",
     github: "https://github.com/pongpwner/online-garage-sale",
     description: "ecommerce website",
-    link: "",
+    link: onlineGarageSale,
+    live: "",
   },
 ];
 
@@ -21,6 +23,7 @@ const Projects = () => (
           description={project.description}
           githubLink={project.github}
           link={project.link}
+          live={project.live}
         />
       ))}
     </div>

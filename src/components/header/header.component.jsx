@@ -5,9 +5,9 @@ const Header = () => (
   <header className="header">
     <ul className="list-container">
       <li>About</li>
-      <li>skills</li>
+      <li>Skills</li>
       <li>Projects</li>
-      <li>contact</li>
+      <li>Contact</li>
     </ul>
   </header>
 );

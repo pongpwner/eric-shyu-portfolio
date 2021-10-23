@@ -1,0 +1,35 @@
+.intro {
+  display: flex;
+
+  height: 94vh;
+  background-color: #171d20;
+  margin-top: 6vh;
+  .intro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-heading {
+    font-size: 3rem;
+    margin: 0 0 3% 20%;
+  }
+  .intro-subheading {
+    font-size: 2.5rem;
+    margin: 0 0 0 40%;
+  }
+
+  .intro-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 500px;
+    }
+  }
+  .hilight {
+    color: #76b041;
+    opacity: 1;
+  }
+}

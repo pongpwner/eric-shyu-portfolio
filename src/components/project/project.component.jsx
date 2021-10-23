@@ -2,10 +2,11 @@ import React from "react";
 import "./project.styles.scss";
 import github from "../../assets/pictures/github-icon.svg";
 
-const Project = ({ name, description, githubLink, link }) => (
+const Project = ({ name, description, githubLink, link, live }) => (
   <div className="project">
-    <img src={link}></img>
     <div>{name}</div>
+    <img className="project-image" src={link} alt="project preview"></img>
+
     <p>{description}</p>
     <ul className="links">
       <li>

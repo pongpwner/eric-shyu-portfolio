@@ -1,18 +1,25 @@
 .header {
   top: 0;
-
+  background-color: #171d20;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  height: 6vh;
+  z-index: 2;
   .list-container {
     display: flex;
     list-style: none;
     justify-content: space-around;
     margin: 0 30% 0 30%;
+
     padding: 0.5%;
     li {
-      padding: 1%;
-      font-size: 1.2em;
-      border: 1px solid white;
+      padding: 0.5%;
+      font-size: 1.4em;
+      border-bottom: 2px solid #171d20;
+
       &:hover {
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid #76b041;
       }
     }
   }

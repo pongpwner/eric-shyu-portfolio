@@ -1,7 +1,13 @@
 .project {
+  background-color: #2f3133;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .links {
     padding: 0;
     list-style-type: none;
+    display: flex;
     .github-icon {
       width: 30px;
       height: 30px;
