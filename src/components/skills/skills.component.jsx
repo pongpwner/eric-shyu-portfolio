@@ -22,7 +22,7 @@ const skills = [
 ];
 const Skills = () => (
   <div className="skills">
-    <h2>Skills</h2>
+    <h1>Skills</h1>
     <div className="skills-container">
       {skills.map((skill) => (
         <Skill key={skill.id} name={skill.name} url={skill.url}></Skill>

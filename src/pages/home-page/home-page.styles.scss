@@ -8,3 +8,15 @@
     width: 60%;
   }
 }
+@media (max-width: 480px) {
+  .home-page {
+    background-color: #1e2529;
+    color: white;
+  }
+  hr {
+    border-top: 1px solid #76b041;
+    border-bottom: 1px solid #1e2529;
+
+    width: 60%;
+  }
+}

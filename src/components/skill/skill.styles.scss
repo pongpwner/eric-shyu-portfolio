@@ -7,10 +7,31 @@
   margin: 5%;
 
   .skill-logo {
-    max-width: 100px;
+    max-width: 100%;
     max-height: 100px;
   }
   .name {
     font-size: 1.4em;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    margin: 5%;
+
+    .skill-logo {
+      max-width: 30px;
+      max-height: 30px;
+    }
+    .name {
+      font-size: 1.4em;
+      opacity: 0.8;
+    }
   }
 }

@@ -3,17 +3,25 @@ import "./about.styles.scss";
 
 const About = () => (
   <section className="about">
-    <h1 className="hilight">Eric Shyu</h1>
+    <h1>About</h1>
     <p>
-      I am a <span className="hilight">front end developer </span> with a
-      computer science background. I am just starting out my career and I am
-      excited for what the future holds
+      My name is Eric Shyu, 23 years old, and I am from North Carolina. I am a
+      front end developer with a computer science degree from UNC Chapel Hill.
     </p>
-    <p>I create web apps and websites from scratch</p>
     <p>
-      I love the internet and I want to help contribute to it by creating
-      <span className="hilight"> beautiful websites </span> with a
-      <span className="hilight"> great user experience </span>
+      I grew up using the internet and I have enjoyed seeing the ui/ux of
+      websites I use evolve. I can certainly remember experiences where
+      navigating a website was unintuitive. I love the internet and I want to
+      contribute to it by creating beautiful websites with a great user
+      experience.
+    </p>
+    <p>
+      I love front end development because I like coding, and seeing what I
+      create come to life of the screen.
+    </p>
+    <p>
+      I am just starting out my career and I am excited to learn more, as well
+      as for what the future holds.
     </p>
   </section>
 );

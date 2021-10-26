@@ -3,7 +3,7 @@
 
   height: 94vh;
   background-color: #171d20;
-  margin-top: 6vh;
+  margin-top: 60px;
   .intro-text {
     width: 50%;
     display: flex;
@@ -31,5 +31,54 @@
   .hilight {
     color: #76b041;
     opacity: 1;
+  }
+}
+
+@media (max-width: 1100px) {
+  .intro {
+    .intro-visual {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 300px;
+        margin-left: 5%;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .intro {
+    display: block;
+
+    height: 100%;
+    background-color: #171d20;
+    margin-top: 60px;
+    .intro-text {
+      display: flex;
+      padding: 18%;
+      width: 100%;
+    }
+    .intro-heading {
+      font-size: 2rem;
+      margin: 0 0 0 0;
+    }
+    .intro-subheading {
+      font-size: 1.75rem;
+      margin: 0 0 0 0;
+    }
+
+    .intro-visual {
+      display: none;
+
+      img {
+        display: none;
+        width: 500px;
+      }
+    }
+    .hilight {
+      color: #76b041;
+      opacity: 1;
+    }
   }
 }
