@@ -2,7 +2,7 @@ import React from "react";
 import "./about.styles.scss";
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <h1>About</h1>
     <p>
       My name is Eric Shyu, 23 years old, and I am from North Carolina. I am a

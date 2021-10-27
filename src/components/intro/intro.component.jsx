@@ -3,7 +3,7 @@ import "./intro.styles.scss";
 import face from "../../assets/pictures/face.jpg";
 
 const Intro = () => (
-  <section className="intro">
+  <section className="intro" id="intro">
     <div className="intro-text">
       <h1 className="intro-heading">
         Greetings, I'm<span className="hilight"> Eric</span>

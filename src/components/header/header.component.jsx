@@ -16,10 +16,21 @@ const Header = () => {
         <div className="burger-line"></div>
       </div>
       <ul className={`list-container ${navbar ? "dflex" : "dnone"}`}>
-        <li onClick={() => setNavbar(false)}>About</li>
-        <li onClick={() => setNavbar(false)}>Skills</li>
-        <li onClick={() => setNavbar(false)}>Projects</li>
-        <li onClick={() => setNavbar(false)}>Contact</li>
+        <li onClick={() => setNavbar(false)}>
+          <a href="#intro">Home</a>
+        </li>
+        <li onClick={() => setNavbar(false)}>
+          <a href="#about">About</a>
+        </li>
+        <li onClick={() => setNavbar(false)}>
+          <a href="#skills">Skills</a>
+        </li>
+        <li onClick={() => setNavbar(false)}>
+          <a href="#projects">Projects</a>
+        </li>
+        <li onClick={() => setNavbar(false)}>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </header>
   );

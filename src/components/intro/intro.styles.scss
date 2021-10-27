@@ -1,7 +1,7 @@
 .intro {
   display: flex;
 
-  height: 94vh;
+  height: calc(100vh - 60px);
   background-color: #171d20;
   margin-top: 60px;
   .intro-text {
@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
     img {
       width: 500px;
     }
@@ -36,44 +37,81 @@
 
 @media (max-width: 1100px) {
   .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .intro-text {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .intro-heading {
+      font-size: 5rem;
+      margin: 0;
+    }
+    .intro-subheading {
+      font-size: 3.5rem;
+      margin: 1% 0 3% 0;
+    }
     .intro-visual {
       display: flex;
       align-items: center;
       justify-content: center;
       img {
-        width: 300px;
+        width: 500px;
         margin-left: 5%;
       }
     }
   }
 }
+@media (max-width: 800px) {
+  .intro {
+    .intro-text {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .intro-heading {
+      font-size: 4rem;
+      margin: 0;
+    }
+    .intro-subheading {
+      font-size: 3rem;
+      margin: 1% 0 3% 0;
+    }
+  }
+}
 @media (max-width: 480px) {
   .intro {
-    display: block;
+    display: flex;
 
+    min-height: 90vh;
     height: 100%;
     background-color: #171d20;
     margin-top: 60px;
     .intro-text {
       display: flex;
-      padding: 18%;
+      padding: 7% 0;
       width: 100%;
     }
     .intro-heading {
       font-size: 2rem;
-      margin: 0 0 0 0;
+      margin: 0 0 1% 0;
     }
     .intro-subheading {
-      font-size: 1.75rem;
+      font-size: 1.7rem;
       margin: 0 0 0 0;
     }
 
     .intro-visual {
-      display: none;
-
+      margin-top: 2%;
       img {
-        display: none;
-        width: 500px;
+        width: 250px;
       }
     }
     .hilight {

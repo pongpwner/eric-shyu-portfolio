@@ -4,7 +4,7 @@ import linkedin from "../../assets/pictures/linkedin-icon.svg";
 import github from "../../assets/pictures/github-icon.svg";
 
 const Contact = () => (
-  <section className="contact">
+  <section className="contact" id="contact">
     <h1>Contact Me</h1>
     <ul className="contact-list">
       <li>

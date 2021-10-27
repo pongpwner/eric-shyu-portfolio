@@ -21,7 +21,7 @@ const skills = [
   { name: "git", url: git, id: 5 },
 ];
 const Skills = () => (
-  <div className="skills">
+  <div className="skills" id="skills">
     <h1>Skills</h1>
     <div className="skills-container">
       {skills.map((skill) => (

@@ -23,7 +23,7 @@ const projects = [
 ];
 
 const Projects = () => (
-  <section className="projects">
+  <section className="projects" id="projects">
     <h1>Projects</h1>
     <div className="project-list">
       {projects.map((project) => (
