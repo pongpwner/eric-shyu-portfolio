@@ -21,6 +21,11 @@
   .email {
     margin-top: 5%;
     font-size: 2rem;
+    color: white;
+    text-underline-offset: 8px;
+    &:hover {
+      color: #76b041;
+    }
   }
 }
 
@@ -30,7 +35,6 @@
     flex-direction: column;
     align-items: center;
 
-    height: calc(100vh - 60px);
     background-color: #1e2529;
     h1 {
       font-size: 3rem;
@@ -56,7 +60,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: calc(100vh - 60px);
 
     background-color: #1e2529;
     h1 {
@@ -78,6 +81,7 @@
     .email {
       margin: 5% 0 5% 0;
       font-size: 1.5rem;
+      text-underline-offset: 6px;
     }
   }
 }

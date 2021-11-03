@@ -67,22 +67,45 @@
     }
   }
 }
-@media (max-width: 800px) {
+@media (orientation: landscape) and (max-width: 900px) {
   .intro {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 60px);
+    background-color: #171d20;
+    margin-top: 60px;
+    justify-content: space-around;
+
     .intro-text {
-      width: 80%;
+      padding-left: 40px;
+      width: 60%;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
     }
     .intro-heading {
-      font-size: 4rem;
-      margin: 0;
+      font-size: 3rem;
+      margin: 0 0 3% 0%;
     }
     .intro-subheading {
-      font-size: 3rem;
-      margin: 1% 0 3% 0;
+      font-size: 2.5rem;
+      margin: 0 0 0 0%;
+    }
+
+    .intro-visual {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+      img {
+        width: 250px;
+      }
+    }
+    .hilight {
+      color: #76b041;
+      opacity: 1;
     }
   }
 }

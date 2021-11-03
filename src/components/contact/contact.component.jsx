@@ -8,18 +8,24 @@ const Contact = () => (
     <h1>Contact Me</h1>
     <ul className="contact-list">
       <li>
-        <a href="linkedin.com">
+        <a
+          href="https://www.linkedin.com/in/eric-shyu-105a84191/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={linkedin} alt="linkedin icon"></img>
         </a>
       </li>
 
       <li>
-        <a href="https://github.com/pongpwner">
+        <a href="https://github.com/pongpwner" target="_blank" rel="noreferrer">
           <img src={github} alt="github icon"></img>
         </a>
       </li>
     </ul>
-    <div className="email">ericsshyus@gmail.com</div>
+    <a className="email" href="mailto: ericsshyus@gmail.com">
+      ericsshyus@gmail.com
+    </a>
   </section>
 );
 
