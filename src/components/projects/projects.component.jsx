@@ -5,7 +5,7 @@ import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 import genshinCompanion from "../../assets/pictures/genshin-companion.png";
 const projects = [
   {
-    name: "online garage sale",
+    name: "Online Garage Sale",
     github: "https://github.com/pongpwner/online-garage-sale",
     description: "ecommerce website",
     link: onlineGarageSale,

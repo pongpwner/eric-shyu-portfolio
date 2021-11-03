@@ -5,7 +5,9 @@ import github from "../../assets/pictures/github-icon.svg";
 const Project = ({ name, description, githubLink, link, live }) => (
   <div className="project">
     <div className="title">{name}</div>
-    <img className="project-image" src={link} alt="project preview"></img>
+    <a href={live} target="_blank" rel="noreferrer" className="link-container">
+      <img className="project-image" src={link} alt="project preview"></img>
+    </a>
 
     <p>{description}</p>
     <ul className="links">
