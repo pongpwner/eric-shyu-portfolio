@@ -78,7 +78,7 @@
 
     .intro-text {
       padding-left: 40px;
-      width: 60%;
+      width: 55%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -100,6 +100,7 @@
       justify-content: flex-start;
       margin-bottom: 20px;
       img {
+        padding-right: 60px;
         width: 250px;
       }
     }

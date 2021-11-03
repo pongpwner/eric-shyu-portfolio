@@ -55,6 +55,30 @@
     }
   }
 }
+@media (orientation: landscape) and (max-width: 900px) {
+  .contact {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2%;
+    }
+    .contact-list {
+      align-self: center;
+      width: 40%;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      img {
+        width: 100px;
+      }
+    }
+    .email {
+      margin: 2% 0 5% 0;
+      font-size: 1.5rem;
+      text-underline-offset: 6px;
+    }
+  }
+}
 @media (max-width: 480px) {
   .contact {
     display: flex;

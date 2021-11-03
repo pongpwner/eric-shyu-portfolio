@@ -9,7 +9,7 @@
   padding-top: 30px;
   background-color: #1e2529;
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .project-list {
@@ -31,7 +31,7 @@
 
     background-color: #1e2529;
     h1 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     .project-list {
@@ -39,6 +39,7 @@
       display: grid;
       grid-gap: 15%;
       grid-template-columns: 1fr 1fr;
+      font-size: 2rem;
     }
   }
 }
