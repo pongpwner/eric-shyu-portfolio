@@ -9,7 +9,7 @@ const projects = [
     github: "https://github.com/pongpwner/online-garage-sale",
     description: "ecommerce website",
     link: onlineGarageSale,
-
+    live: "https://pong-online-garage-sale.herokuapp.com/",
     id: 1,
   },
   {
