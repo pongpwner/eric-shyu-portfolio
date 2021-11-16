@@ -17,7 +17,7 @@ const About = () => (
     </p>
     <p>
       I love front end development because I like coding, and seeing what I
-      create come to life of the screen.
+      create come to life on the screen.
     </p>
     <p>
       I am just starting out my career and I am excited to learn more, as well
