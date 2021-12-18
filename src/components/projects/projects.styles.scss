@@ -18,6 +18,16 @@
     grid-gap: 15%;
     grid-template-columns: 1fr 1fr;
   }
+  .link-container {
+    margin-top: 2rem;
+    .front-end-mentor-link {
+      color: white;
+      font-size: 2rem;
+      &:hover {
+        color: #76b041;
+      }
+    }
+  }
 }
 
 @media (max-width: 1100px) {

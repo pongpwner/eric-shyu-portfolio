@@ -6,14 +6,14 @@ import Skills from "../../components/skills/skills.component";
 import Contact from "../../components/contact/contact.component";
 import Intro from "../../components/intro/intro.component";
 const HomePage = () => (
-  <div className="home-page">
+  <main className="home-page">
     <Intro />
     <Skills />
     <hr></hr>
     <Projects />
     <About />
     <Contact />
-  </div>
+  </main>
 );
 
 export default HomePage;

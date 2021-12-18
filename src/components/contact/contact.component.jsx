@@ -13,13 +13,17 @@ const Contact = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="linkedin icon"></img>
+          <img
+            className="linkedin-icon"
+            src={linkedin}
+            alt="linkedin icon"
+          ></img>
         </a>
       </li>
 
       <li>
         <a href="https://github.com/pongpwner" target="_blank" rel="noreferrer">
-          <img src={github} alt="github icon"></img>
+          <img className="github-icon" src={github} alt="github icon"></img>
         </a>
       </li>
     </ul>

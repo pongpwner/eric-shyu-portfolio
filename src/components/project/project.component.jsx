@@ -8,22 +8,23 @@ const Project = ({ name, description, githubLink, link, live }) => (
     <a href={live} target="_blank" rel="noreferrer" className="link-container">
       <img className="project-image" src={link} alt="project preview"></img>
     </a>
-
-    <p>{description}</p>
-    <ul className="links">
-      <li>
-        <a href={githubLink} target="_blank" rel="noreferrer">
-          <img className="github-icon" src={github} alt="github"></img>
-        </a>
-      </li>
-      {live ? (
+    <div className="group1">
+      <p>{description}</p>
+      <ul className="links">
         <li>
-          <a href={live} target="_blank" rel="noreferrer">
-            live
+          <a href={githubLink} target="_blank" rel="noreferrer">
+            <img className="github-icon" src={github} alt="github"></img>
           </a>
         </li>
-      ) : null}
-    </ul>
+        {live ? (
+          <li>
+            <a href={live} target="_blank" rel="noreferrer">
+              live
+            </a>
+          </li>
+        ) : null}
+      </ul>
+    </div>
   </div>
 );
 

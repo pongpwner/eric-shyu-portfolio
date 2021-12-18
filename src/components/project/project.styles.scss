@@ -20,6 +20,13 @@
       width: 100%;
     }
   }
+  .group1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+  }
 
   .links {
     padding: 0;
@@ -32,6 +39,13 @@
     .github-icon {
       width: 40px;
       height: 40px;
+      border: white solid 1px;
+      border-radius: 50%;
+      background-color: white;
+      &:hover {
+        border-color: #76b041;
+        background-color: #76b041;
+      }
     }
     a {
       color: white;

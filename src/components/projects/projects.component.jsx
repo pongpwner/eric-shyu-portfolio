@@ -37,6 +37,16 @@ const Projects = () => (
         />
       ))}
     </div>
+    <div className="link-container">
+      <a
+        className="front-end-mentor-link"
+        href="https://www.frontendmentor.io/profile/pongpwner"
+        target="_blank"
+        rel="noreferrer"
+      >
+        front end mentor coding challenge solutions
+      </a>
+    </div>
   </section>
 );
 

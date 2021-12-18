@@ -17,6 +17,26 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
+    gap: 1rem;
+    img {
+      width: 150px;
+    }
+    .github-icon {
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid white;
+      &:hover {
+        border-color: #76b041;
+        background-color: #76b041;
+      }
+    }
+    .linkedin-icon {
+      background-color: white;
+      border-radius: 20px;
+      &:hover {
+        background-color: #76b041;
+      }
+    }
   }
   .email {
     margin-top: 5%;
@@ -48,7 +68,12 @@
       display: flex;
       justify-content: space-around;
       padding: 0;
+      gap: 2rem;
+      img {
+        width: 150px;
+      }
     }
+
     .email {
       margin-top: 5%;
       font-size: 2rem;
@@ -68,6 +93,7 @@
       display: flex;
       justify-content: space-around;
       padding: 0;
+      gap: 2rem;
       img {
         width: 100px;
       }
@@ -98,6 +124,7 @@
       display: flex;
       justify-content: space-around;
       padding: 0;
+      gap: 2rem;
       img {
         width: 70px;
       }
