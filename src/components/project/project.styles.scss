@@ -6,6 +6,15 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  //modal
+  .children {
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .title {
     font-size: 1.5rem;
     padding: 2%;
@@ -14,11 +23,9 @@
     font-size: 1.3rem;
     margin: 4% 25px 0 25px;
   }
-  .link-container {
-    .project-image {
-      max-width: 375px;
-      width: 100%;
-    }
+
+  .project-image {
+    width: 100%;
   }
   .group1 {
     display: flex;
@@ -75,8 +82,8 @@
       margin: 4% 25px 0 25px;
     }
     .project-image {
-      max-width: 375px;
-      width: 95%;
+      //max-width: 375px;
+      width: 100%;
     }
     .links {
       padding: 0;

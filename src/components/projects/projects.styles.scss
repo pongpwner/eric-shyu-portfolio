@@ -15,8 +15,11 @@
   .project-list {
     width: 50%;
     display: grid;
-    grid-gap: 15%;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    @media (max-width: 1100px) {
+      grid-template-columns: 1fr;
+    }
   }
   .link-container {
     margin-top: 2rem;
@@ -47,8 +50,8 @@
     .project-list {
       width: 75%;
       display: grid;
-      grid-gap: 15%;
-      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -71,7 +74,7 @@
       width: 92%;
       display: grid;
       grid-gap: 8%;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
   }
 }
