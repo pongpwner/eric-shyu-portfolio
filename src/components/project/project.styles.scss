@@ -8,12 +8,19 @@
   width: 100%;
   //modal
   .children {
-    padding: 1rem;
+    padding: 0.25rem 1.5rem;
     height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    .name {
+      color: #76b041;
+      margin: 0;
+    }
+  }
+  .technologies {
+    color: #76b041;
   }
   .title {
     font-size: 1.5rem;
@@ -33,6 +40,7 @@
     align-items: center;
     flex-direction: column;
     flex-grow: 2;
+    gap: 0.5rem;
   }
 
   .links {
@@ -40,14 +48,14 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin: 0.3rem 0;
     width: 150px;
 
     .github-icon {
       width: 40px;
       height: 40px;
       border: white solid 1px;
-      border-radius: 50%;
+      border-radius: 5px;
       background-color: white;
       &:hover {
         border-color: #76b041;
@@ -126,7 +134,7 @@
       margin: 4% 25px 0 25px;
     }
     .project-image {
-      width: 300px;
+      width: 100%;
     }
     .links {
       padding: 0;

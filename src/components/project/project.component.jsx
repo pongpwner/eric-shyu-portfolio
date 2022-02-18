@@ -10,6 +10,7 @@ const Project = ({
   link,
   live,
   modalDescription,
+  technologies,
 }) => {
   const [active, setActive] = useState(false);
   function toggleModal() {
@@ -19,8 +20,7 @@ const Project = ({
   return (
     <div className="project" onClick={toggleModal}>
       <Modal active={active} closeModal={toggleModal}>
-        <img className="project-image" src={link} alt="project preview"></img>
-        {modalDescription}
+        <h2 className="name"> {name}</h2>
         <ul className="links">
           <li>
             <a href={githubLink} target="_blank" rel="noreferrer">
@@ -35,6 +35,8 @@ const Project = ({
             </li>
           ) : null}
         </ul>
+        <img className="project-image" src={link} alt="project preview"></img>
+        {modalDescription}
       </Modal>
       <div className="title">{name}</div>
 
@@ -42,6 +44,7 @@ const Project = ({
 
       <div className="group1">
         <p>{description}</p>
+        <div className="technologies">{technologies}</div>
         <ul className="links">
           <li>
             <a href={githubLink} target="_blank" rel="noreferrer">

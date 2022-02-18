@@ -5,7 +5,7 @@ import github from "../../assets/pictures/github-icon.svg";
 
 const Contact = () => (
   <section className="contact" id="contact">
-    <h1>Contact Me</h1>
+    <h1>Contact / Links</h1>
     <ul className="contact-list">
       <li>
         <a
@@ -27,8 +27,8 @@ const Contact = () => (
         </a>
       </li>
     </ul>
-    <a className="email" href="mailto: ericsshyus@gmail.com">
-      ericsshyus@gmail.com
+    <a className="email" href="mailto: ericshyu98@gmail.com">
+      ericshyu98@gmail.com
     </a>
   </section>
 );

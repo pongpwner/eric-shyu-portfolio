@@ -2,27 +2,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  min-height: calc(100vh - 60px);
+  padding: 1rem;
   background-color: #1e2529;
   h1 {
+    margin: 0;
     font-size: 3rem;
-    margin-top: 5%;
   }
   .contact-list {
-    margin-top: 5%;
     align-self: center;
     width: 40%;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 0;
     gap: 1rem;
     img {
-      width: 150px;
+      width: 25px;
     }
     .github-icon {
-      border-radius: 50%;
+      border-radius: 5px;
       background-color: white;
       border: 1px solid white;
       &:hover {
@@ -32,14 +30,13 @@
     }
     .linkedin-icon {
       background-color: white;
-      border-radius: 20px;
+      border-radius: 5px;
       &:hover {
         background-color: #76b041;
       }
     }
   }
   .email {
-    margin-top: 5%;
     font-size: 2rem;
     color: white;
     text-underline-offset: 8px;
@@ -49,90 +46,90 @@
   }
 }
 
-@media (max-width: 1100px) {
-  .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+// @media (max-width: 1100px) {
+//   .contact {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
 
-    background-color: #1e2529;
-    h1 {
-      font-size: 3rem;
-      margin-top: 5%;
-    }
-    .contact-list {
-      margin-top: 5%;
-      align-self: center;
-      width: 90%;
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
-      gap: 2rem;
-      img {
-        width: 150px;
-      }
-    }
+//     background-color: #1e2529;
+//     h1 {
+//       font-size: 3rem;
+//       margin-top: 5%;
+//     }
+//     .contact-list {
+//       margin-top: 5%;
+//       align-self: center;
+//       width: 90%;
+//       list-style: none;
+//       display: flex;
+//       justify-content: center;
+//       padding: 0;
+//       gap: 2rem;
+//       img {
+//         width: 25px;
+//       }
+//     }
 
-    .email {
-      margin-top: 5%;
-      font-size: 2rem;
-    }
-  }
-}
-@media (orientation: landscape) and (max-width: 900px) {
-  .contact {
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 2%;
-    }
-    .contact-list {
-      align-self: center;
-      width: 40%;
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
-      gap: 2rem;
-      img {
-        width: 100px;
-      }
-    }
-    .email {
-      margin: 2% 0 5% 0;
-      font-size: 1.5rem;
-      text-underline-offset: 6px;
-    }
-  }
-}
-@media (max-width: 480px) {
-  .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+//     .email {
+//       margin-top: 5%;
+//       font-size: 2rem;
+//     }
+//   }
+// }
+// @media (orientation: landscape) and (max-width: 900px) {
+//   .contact {
+//     h1 {
+//       font-size: 2rem;
+//       margin-bottom: 2%;
+//     }
+//     .contact-list {
+//       align-self: center;
+//       width: 40%;
+//       list-style: none;
+//       display: flex;
+//       justify-content: space-around;
+//       padding: 0;
+//       gap: 2rem;
+//       img {
+//         width: 20px;
+//       }
+//     }
+//     .email {
+//       margin: 2% 0 5% 0;
+//       font-size: 1.5rem;
+//       text-underline-offset: 6px;
+//     }
+//   }
+// }
+// @media (max-width: 480px) {
+//   .contact {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
 
-    background-color: #1e2529;
-    h1 {
-      font-size: 2rem;
-      margin-top: 5%;
-    }
-    .contact-list {
-      margin-top: 5%;
-      align-self: center;
-      width: 80%;
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
-      padding: 0;
-      gap: 2rem;
-      img {
-        width: 70px;
-      }
-    }
-    .email {
-      margin: 5% 0 5% 0;
-      font-size: 1.5rem;
-      text-underline-offset: 6px;
-    }
-  }
-}
+//     background-color: #1e2529;
+//     h1 {
+//       font-size: 2rem;
+//       margin-top: 5%;
+//     }
+//     .contact-list {
+//       // margin-top: 5%;
+//       // align-self: center;
+//       // width: 80%;
+//       // list-style: none;
+//       // display: flex;
+//       // justify-content: space-around;
+//       // padding: 0;
+//       // gap: 2rem;
+//       // img {
+//       //   width: 70px;
+//       // }
+//     }
+//     .email {
+//       margin: 5% 0 5% 0;
+//       font-size: 1.5rem;
+//       text-underline-offset: 6px;
+//     }
+//   }
+// }
