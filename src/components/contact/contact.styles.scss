@@ -1,9 +1,10 @@
+@import "../../colors.scss";
 .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background-color: #1e2529;
+  background-color: $background3;
   h1 {
     margin: 0;
     font-size: 3rem;
@@ -24,15 +25,15 @@
       background-color: white;
       border: 1px solid white;
       &:hover {
-        border-color: #76b041;
-        background-color: #76b041;
+        border-color: $accent3;
+        background-color: $accent3;
       }
     }
     .linkedin-icon {
       background-color: white;
       border-radius: 5px;
       &:hover {
-        background-color: #76b041;
+        background-color: $accent3;
       }
     }
   }
@@ -41,7 +42,7 @@
     color: white;
     text-underline-offset: 8px;
     &:hover {
-      color: #76b041;
+      color: $accent3;
     }
   }
 }

@@ -1,7 +1,8 @@
+@import "../../colors.scss";
 .header {
   top: 0;
   left: 0;
-  background-color: #171d20;
+  background-color: $background1;
   color: white;
   position: fixed;
   width: 100vw;
@@ -18,14 +19,14 @@
     li {
       padding: 0.5%;
       font-size: 1.4em;
-      border-bottom: 2px solid #171d20;
+      border-bottom: 2px solid $background1;
       a {
         color: white;
         text-decoration: none;
       }
 
       &:hover {
-        border-bottom: 2px solid #76b041;
+        border-bottom: 2px solid $accent3;
       }
     }
   }
@@ -44,7 +45,6 @@
     position: fixed;
     width: 100vw;
     height: 60px;
-    
 
     .burger-line {
       width: 35px;
@@ -66,8 +66,9 @@
         display: flex;
         justify-content: center;
         width: 100vw;
+        padding: 0;
         background-color: #171d20;
-        padding: 0.5%;
+
         font-size: 1.4em;
         border-bottom: 2px solid #171d20;
         &:hover {
@@ -77,6 +78,9 @@
         }
 
         a {
+          padding: 0.5%;
+          width: 100%;
+          text-align: center;
           &:hover {
             border-bottom: 2px solid white;
             background-color: white;

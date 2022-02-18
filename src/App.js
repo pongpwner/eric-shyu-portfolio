@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./components/header/header.component";
 import HomePage from "./pages/home-page/home-page.component";
 function App() {

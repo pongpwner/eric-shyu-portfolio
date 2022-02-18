@@ -6,10 +6,10 @@ const Intro = () => (
   <section className="intro" id="intro">
     <div className="intro-text">
       <h1 className="intro-heading">
-        Greetings, I'm<span className="hilight"> Eric</span>
+        Greetings, I'm<span className="hilight1"> Eric</span>
       </h1>
       <h2 className="intro-subheading">
-        A <span className="hilight"> front end </span>developer
+        A <span className="hilight2"> front end </span>developer
       </h2>
     </div>
     <div className="intro-visual">

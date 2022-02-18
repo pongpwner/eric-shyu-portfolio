@@ -1,12 +1,13 @@
+@import "../../colors.scss";
 .home-page {
-  background-color: #1e2529;
+  background-color: $background3;
   color: white;
   display: flex;
   flex-direction: column;
 
   hr {
-    border-top: 1px solid #76b041;
-    border-bottom: 1px solid #1e2529;
+    border-top: 1px solid $accent1;
+    border-bottom: 1px solid $background3;
     margin: 0 auto;
 
     width: 60%;
@@ -15,12 +16,12 @@
 
 @media (max-width: 480px) {
   .home-page {
-    background-color: #1e2529;
+    background-color: $background3;
     color: white;
   }
   hr {
-    border-top: 1px solid #76b041;
-    border-bottom: 1px solid #1e2529;
+    border-top: 1px solid $accent1;
+    border-bottom: 1px solid $background3;
 
     width: 90%;
   }

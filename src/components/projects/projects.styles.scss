@@ -1,3 +1,4 @@
+@import "../../colors.scss";
 .projects {
   display: flex;
   flex-direction: column;
@@ -7,7 +8,7 @@
   min-height: 50vh;
   height: 100%;
   padding-top: 30px;
-  background-color: #1e2529;
+  background-color: $background3;
   h1 {
     font-size: 3rem;
   }
@@ -27,7 +28,7 @@
       color: white;
       font-size: 2rem;
       &:hover {
-        color: #76b041;
+        color: $accent3;
       }
     }
   }

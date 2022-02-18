@@ -18,7 +18,7 @@ const Project = ({
   }
 
   return (
-    <div className="project" onClick={toggleModal}>
+    <div className="project">
       <Modal active={active} closeModal={toggleModal}>
         <h2 className="name"> {name}</h2>
         <ul className="links">
@@ -29,19 +29,25 @@ const Project = ({
           </li>
           {live ? (
             <li>
-              <a href={live} target="_blank" rel="noreferrer">
+              <a
+                href={live}
+                className="live-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 live
               </a>
             </li>
           ) : null}
         </ul>
         <img className="project-image" src={link} alt="project preview"></img>
-        {modalDescription}
+        <div className="technologies">{technologies}</div>
+        <div className="description">{modalDescription}</div>
       </Modal>
-      <div className="title">{name}</div>
-
-      <img className="project-image" src={link} alt="project preview"></img>
-
+      <h2 className="title">{name}</h2>
+      <button className="image-button" onClick={toggleModal}>
+        <img className="project-image" src={link} alt="project preview"></img>
+      </button>
       <div className="group1">
         <p>{description}</p>
         <div className="technologies">{technologies}</div>
@@ -53,11 +59,21 @@ const Project = ({
           </li>
           {live ? (
             <li>
-              <a href={live} target="_blank" rel="noreferrer">
+              <a
+                className="live-link"
+                href={live}
+                target="_blank"
+                rel="noreferrer"
+              >
                 live
               </a>
             </li>
           ) : null}
+          <li>
+            <button className="more-info-button" onClick={toggleModal}>
+              more <br /> info
+            </button>
+          </li>
         </ul>
       </div>
     </div>
