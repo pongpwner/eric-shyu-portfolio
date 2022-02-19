@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import reactDom from "react-dom";
 import "./project.styles.scss";
 import Modal from "../modal/modal.component";
 import github from "../../assets/pictures/github-icon.svg";
@@ -12,38 +13,51 @@ const Project = ({
   modalDescription,
   technologies,
 }) => {
+  const [domReady, setDomReady] = useState(false);
   const [active, setActive] = useState(false);
   function toggleModal() {
     setActive(!active);
   }
+  useEffect(() => {
+    setDomReady(true);
+  }, []);
+
+  const appRoot = document.getElementById("root");
+
+  const modal = domReady
+    ? reactDom.createPortal(
+        <Modal active={active} closeModal={toggleModal}>
+          <h2 className="name"> {name}</h2>
+          <ul className="links">
+            <li>
+              <a href={githubLink} target="_blank" rel="noreferrer">
+                <img className="github-icon" src={github} alt="github"></img>
+              </a>
+            </li>
+            {live ? (
+              <li>
+                <a
+                  href={live}
+                  className="live-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  live
+                </a>
+              </li>
+            ) : null}
+          </ul>
+          <img className="project-image" src={link} alt="project preview"></img>
+          <div className="technologies">{technologies}</div>
+          <div className="description">{modalDescription}</div>
+        </Modal>,
+        appRoot
+      )
+    : null;
 
   return (
     <div className="project">
-      <Modal active={active} closeModal={toggleModal}>
-        <h2 className="name"> {name}</h2>
-        <ul className="links">
-          <li>
-            <a href={githubLink} target="_blank" rel="noreferrer">
-              <img className="github-icon" src={github} alt="github"></img>
-            </a>
-          </li>
-          {live ? (
-            <li>
-              <a
-                href={live}
-                className="live-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                live
-              </a>
-            </li>
-          ) : null}
-        </ul>
-        <img className="project-image" src={link} alt="project preview"></img>
-        <div className="technologies">{technologies}</div>
-        <div className="description">{modalDescription}</div>
-      </Modal>
+      {modal}
       <h2 className="title">{name}</h2>
       <button className="image-button" onClick={toggleModal}>
         <img className="project-image" src={link} alt="project preview"></img>
