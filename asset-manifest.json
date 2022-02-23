@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eric-shyu-portfolio/static/css/main.e3031e83.chunk.css",
-    "main.js": "/eric-shyu-portfolio/static/js/main.eba3dc59.chunk.js",
-    "main.js.map": "/eric-shyu-portfolio/static/js/main.eba3dc59.chunk.js.map",
-    "runtime-main.js": "/eric-shyu-portfolio/static/js/runtime-main.b21b981b.js",
-    "runtime-main.js.map": "/eric-shyu-portfolio/static/js/runtime-main.b21b981b.js.map",
-    "static/js/2.0dc1b52b.chunk.js": "/eric-shyu-portfolio/static/js/2.0dc1b52b.chunk.js",
-    "static/js/2.0dc1b52b.chunk.js.map": "/eric-shyu-portfolio/static/js/2.0dc1b52b.chunk.js.map",
-    "static/js/3.4a609856.chunk.js": "/eric-shyu-portfolio/static/js/3.4a609856.chunk.js",
-    "static/js/3.4a609856.chunk.js.map": "/eric-shyu-portfolio/static/js/3.4a609856.chunk.js.map",
+    "main.css": "/eric-shyu-portfolio/static/css/main.79c189c5.chunk.css",
+    "main.js": "/eric-shyu-portfolio/static/js/main.4a6b890d.chunk.js",
+    "main.js.map": "/eric-shyu-portfolio/static/js/main.4a6b890d.chunk.js.map",
+    "runtime-main.js": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js",
+    "runtime-main.js.map": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js.map",
+    "static/js/2.5452374f.chunk.js": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js",
+    "static/js/2.5452374f.chunk.js.map": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js.map",
+    "static/js/3.17d0edf4.chunk.js": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js",
+    "static/js/3.17d0edf4.chunk.js.map": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js.map",
     "index.html": "/eric-shyu-portfolio/index.html",
-    "static/css/main.e3031e83.chunk.css.map": "/eric-shyu-portfolio/static/css/main.e3031e83.chunk.css.map",
-    "static/js/2.0dc1b52b.chunk.js.LICENSE.txt": "/eric-shyu-portfolio/static/js/2.0dc1b52b.chunk.js.LICENSE.txt",
+    "static/css/main.79c189c5.chunk.css.map": "/eric-shyu-portfolio/static/css/main.79c189c5.chunk.css.map",
+    "static/js/2.5452374f.chunk.js.LICENSE.txt": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js.LICENSE.txt",
     "static/media/css-3.92661138.svg": "/eric-shyu-portfolio/static/media/css-3.92661138.svg",
     "static/media/face.ef6cb928.jpg": "/eric-shyu-portfolio/static/media/face.ef6cb928.jpg",
     "static/media/genshin-companion.84906cc6.png": "/eric-shyu-portfolio/static/media/genshin-companion.84906cc6.png",
@@ -27,9 +27,9 @@
     "static/media/sass.3572f53e.svg": "/eric-shyu-portfolio/static/media/sass.3572f53e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b21b981b.js",
-    "static/js/2.0dc1b52b.chunk.js",
-    "static/css/main.e3031e83.chunk.css",
-    "static/js/main.eba3dc59.chunk.js"
+    "static/js/runtime-main.fcb8ca9d.js",
+    "static/js/2.5452374f.chunk.js",
+    "static/css/main.79c189c5.chunk.css",
+    "static/js/main.4a6b890d.chunk.js"
   ]
 }
