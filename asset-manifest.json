@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eric-shyu-portfolio/static/css/main.79c189c5.chunk.css",
+    "main.css": "/eric-shyu-portfolio/static/css/main.5878de91.chunk.css",
     "main.js": "/eric-shyu-portfolio/static/js/main.4a6b890d.chunk.js",
     "main.js.map": "/eric-shyu-portfolio/static/js/main.4a6b890d.chunk.js.map",
     "runtime-main.js": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js",
@@ -10,7 +10,7 @@
     "static/js/3.17d0edf4.chunk.js": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js",
     "static/js/3.17d0edf4.chunk.js.map": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js.map",
     "index.html": "/eric-shyu-portfolio/index.html",
-    "static/css/main.79c189c5.chunk.css.map": "/eric-shyu-portfolio/static/css/main.79c189c5.chunk.css.map",
+    "static/css/main.5878de91.chunk.css.map": "/eric-shyu-portfolio/static/css/main.5878de91.chunk.css.map",
     "static/js/2.5452374f.chunk.js.LICENSE.txt": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js.LICENSE.txt",
     "static/media/css-3.92661138.svg": "/eric-shyu-portfolio/static/media/css-3.92661138.svg",
     "static/media/face.ef6cb928.jpg": "/eric-shyu-portfolio/static/media/face.ef6cb928.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcb8ca9d.js",
     "static/js/2.5452374f.chunk.js",
-    "static/css/main.79c189c5.chunk.css",
+    "static/css/main.5878de91.chunk.css",
     "static/js/main.4a6b890d.chunk.js"
   ]
 }
