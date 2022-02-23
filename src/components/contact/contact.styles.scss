@@ -17,8 +17,19 @@
     justify-content: center;
     padding: 0;
     gap: 1rem;
+    align-items: center;
     img {
-      width: 25px;
+      width: 30px;
+    }
+    .icon {
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid white;
+      padding: 0;
+      &:hover {
+        border-color: $accent3;
+        background-color: $accent3;
+      }
     }
     .github-icon {
       border-radius: 5px;

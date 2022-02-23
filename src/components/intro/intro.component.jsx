@@ -4,14 +4,14 @@ import face from "../../assets/pictures/face.jpg";
 
 const Intro = () => (
   <section className="intro" id="intro">
-    <div className="intro-text">
-      <h1 className="intro-heading">
+    <h1 className="intro-text">
+      <span className="intro-heading">
         Greetings, I'm<span className="hilight1"> Eric</span>
-      </h1>
-      <h2 className="intro-subheading">
+      </span>
+      <span className="intro-subheading">
         A <span className="hilight2"> front end </span>developer
-      </h2>
-    </div>
+      </span>
+    </h1>
     <div className="intro-visual">
       <img src={face} alt="my face"></img>
     </div>

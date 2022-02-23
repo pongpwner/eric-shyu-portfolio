@@ -2,6 +2,8 @@ import React from "react";
 import "./contact.styles.scss";
 import linkedin from "../../assets/pictures/linkedin-icon.svg";
 import github from "../../assets/pictures/github-icon.svg";
+import email from "../../assets/pictures/email.png";
+import resume from "../../assets/pictures/resume.png";
 
 const Contact = () => (
   <section className="contact" id="contact">
@@ -26,10 +28,12 @@ const Contact = () => (
           <img className="github-icon" src={github} alt="github icon"></img>
         </a>
       </li>
+      <li>
+        <a className="email" href="mailto: ericshyu98@gmail.com">
+          <img className="icon" alt="email" src={email}></img>
+        </a>
+      </li>
     </ul>
-    <a className="email" href="mailto: ericshyu98@gmail.com">
-      ericshyu98@gmail.com
-    </a>
   </section>
 );
 

@@ -21,14 +21,14 @@ const skills = [
   { name: "git", url: git, id: 5 },
 ];
 const Skills = () => (
-  <div className="skills" id="skills">
+  <section className="skills" id="skills">
     <h1>Skills</h1>
     <div className="skills-container">
       {skills.map((skill) => (
         <Skill key={skill.id} name={skill.name} url={skill.url}></Skill>
       ))}
     </div>
-  </div>
+  </section>
 );
 
 export default Skills;

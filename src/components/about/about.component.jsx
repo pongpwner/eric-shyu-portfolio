@@ -17,8 +17,9 @@ const About = () => (
       it has gone through. It started out unpolished , but now the ux/ui is so
       clean. I can also certainly remember experiences where navigating a
       website was counterintuitive. It is a shame when a website is not easy to
-      navigate. I love the internet and I want to contribute to it by creating
-      beautiful websites with a great user experience.
+      navigate and causes the user frustration. I love the internet and I want
+      to contribute to it by creating beautiful websites with a great user
+      experience.
     </p>
     <p>
       Coding aside I enjoy playing video games, watching anime, exercising, and
