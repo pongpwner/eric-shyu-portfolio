@@ -1,4 +1,33 @@
 @import "../../colors.scss";
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .intro {
   display: flex;
 
@@ -16,10 +45,16 @@
   .intro-heading {
     font-size: 3rem;
     margin: 0 0 3% 20%;
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
   }
   .intro-subheading {
     font-size: 2.5rem;
     margin: 0 0 0 40%;
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
   }
 
   .intro-visual {
@@ -30,6 +65,10 @@
 
     img {
       width: 500px;
+      clip-path: circle(42%);
+      animation-name: appear;
+      animation-duration: 2s;
+      animation-timing-function: ease-in;
     }
   }
   .hilight1 {
@@ -96,10 +135,14 @@
     .intro-heading {
       font-size: 3rem;
       margin: 0 0 3% 0%;
+      animation-name: slideInLeft;
+      animation-duration: 2s;
     }
     .intro-subheading {
       font-size: 2.5rem;
       margin: 0 0 0 0%;
+      animation-name: slideInRight;
+      animation-duration: 2s;
     }
 
     .intro-visual {
