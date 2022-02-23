@@ -49,7 +49,7 @@ const Project = ({
           </ul>
           <img className="project-image" src={link} alt="project preview"></img>
           <div className="technologies">{technologies}</div>
-          <div className="description">{modalDescription}</div>
+          {modalDescription}
         </Modal>,
         appRoot
       )
