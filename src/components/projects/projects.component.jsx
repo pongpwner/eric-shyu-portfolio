@@ -76,7 +76,7 @@ const projects = [
 
 const Projects = () => (
   <section className="projects" id="projects">
-    <h1>Projects</h1>
+    <h1 className="heading1 u-margin-top-small">Projects</h1>
     <div className="project-list">
       {projects.map((project) => (
         <Project

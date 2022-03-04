@@ -1,147 +1,18 @@
-@import "../../colors.scss";
+@use "../../scss/variables" as *;
 .contact {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding: 1rem;
   background-color: $background3;
-  h1 {
-    margin: 0;
-    font-size: 3rem;
+  .heading1 {
+    padding-top: 0;
   }
+
   .contact-list {
-    align-self: center;
     width: 40%;
     list-style: none;
-    display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0;
     gap: 1rem;
-    align-items: center;
-    img {
-      width: 30px;
-    }
-    .icon {
-      border-radius: 5px;
-      background-color: white;
-      border: 1px solid white;
-      padding: 0;
-      &:hover {
-        border-color: $accent3;
-        background-color: $accent3;
-      }
-    }
-    .github-icon {
-      border-radius: 5px;
-      background-color: white;
-      border: 1px solid white;
-      &:hover {
-        border-color: $accent3;
-        background-color: $accent3;
-      }
-    }
-    .linkedin-icon {
-      background-color: white;
-      border-radius: 5px;
-      &:hover {
-        background-color: $accent3;
-      }
-    }
-  }
-  .email {
-    font-size: 2rem;
-    color: white;
-    text-underline-offset: 8px;
-    &:hover {
-      color: $accent3;
-    }
   }
 }
-
-// @media (max-width: 1100px) {
-//   .contact {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-
-//     background-color: #1e2529;
-//     h1 {
-//       font-size: 3rem;
-//       margin-top: 5%;
-//     }
-//     .contact-list {
-//       margin-top: 5%;
-//       align-self: center;
-//       width: 90%;
-//       list-style: none;
-//       display: flex;
-//       justify-content: center;
-//       padding: 0;
-//       gap: 2rem;
-//       img {
-//         width: 25px;
-//       }
-//     }
-
-//     .email {
-//       margin-top: 5%;
-//       font-size: 2rem;
-//     }
-//   }
-// }
-// @media (orientation: landscape) and (max-width: 900px) {
-//   .contact {
-//     h1 {
-//       font-size: 2rem;
-//       margin-bottom: 2%;
-//     }
-//     .contact-list {
-//       align-self: center;
-//       width: 40%;
-//       list-style: none;
-//       display: flex;
-//       justify-content: space-around;
-//       padding: 0;
-//       gap: 2rem;
-//       img {
-//         width: 20px;
-//       }
-//     }
-//     .email {
-//       margin: 2% 0 5% 0;
-//       font-size: 1.5rem;
-//       text-underline-offset: 6px;
-//     }
-//   }
-// }
-// @media (max-width: 480px) {
-//   .contact {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-
-//     background-color: #1e2529;
-//     h1 {
-//       font-size: 2rem;
-//       margin-top: 5%;
-//     }
-//     .contact-list {
-//       // margin-top: 5%;
-//       // align-self: center;
-//       // width: 80%;
-//       // list-style: none;
-//       // display: flex;
-//       // justify-content: space-around;
-//       // padding: 0;
-//       // gap: 2rem;
-//       // img {
-//       //   width: 70px;
-//       // }
-//     }
-//     .email {
-//       margin: 5% 0 5% 0;
-//       font-size: 1.5rem;
-//       text-underline-offset: 6px;
-//     }
-//   }
-// }

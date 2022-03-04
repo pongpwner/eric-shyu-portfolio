@@ -58,12 +58,12 @@ const Project = ({
   return (
     <div className="project">
       {modal}
-      <h2 className="title">{name}</h2>
+      <h2 className="title heading2">{name}</h2>
       <button className="image-button" onClick={toggleModal}>
         <img className="project-image" src={link} alt="project preview"></img>
       </button>
       <div className="group1">
-        <p>{description}</p>
+        <p className="project-description">{description}</p>
         <div className="technologies">{technologies}</div>
         <ul className="links">
           <li>

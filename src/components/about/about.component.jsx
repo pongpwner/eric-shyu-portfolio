@@ -2,15 +2,15 @@ import React from "react";
 import "./about.styles.scss";
 
 const About = () => (
-  <section className="about" id="about">
-    <h1>About</h1>
-    <p>
+  <section className="about flex-col " id="about">
+    <h1 className="heading1 u-margin-top-small">About</h1>
+    <p className="paragraph">
       My name is Eric Shyu, I am from North Carolina. I am a front end developer
       with a Computer Science degree from UNC Chapel Hill. Since graduation I
       have been working on various projects and taking online courses to gain
       experience and further my knowledge on front end development.
     </p>
-    <p>
+    <p className="paragraph">
       I grew up using the internet and I have enjoyed seeing the ui/ux of
       websites I use evolve. One of my favorite websites is youtube. I have been
       a frequent user of the site since 2005, and I have seen the many changes
@@ -21,7 +21,7 @@ const About = () => (
       to contribute to it by creating beautiful websites with a great user
       experience.
     </p>
-    <p>
+    <p className="paragraph">
       Coding aside I enjoy playing video games, watching anime, exercising, and
       trying new hobbies. I dabble in yoyoing, drawing, piano, pen spinning,
       breakdancing, balisong, diabolo, kendama, and juggling.

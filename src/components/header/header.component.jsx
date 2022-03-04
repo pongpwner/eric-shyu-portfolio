@@ -14,28 +14,42 @@ const Header = () => {
   return (
     <header className="header">
       <nav>
-        <div className="burger" onClick={toggleNavbar}>
-          <div className="burger-line"></div>
-          <div className="burger-line"></div>
-          <div className="burger-line"></div>
+        <div
+          className={`burger ${navbar ? "burger-x" : ""}`}
+          onClick={toggleNavbar}
+        >
+          <div className="burger-line burger-line-1 "></div>
+          <div className="burger-line burger-line-2 "></div>
+          <div className="burger-line burger-line-3"></div>
         </div>
-        <ul className={`list-container ${navbar ? "dflex" : "dnone"}`}>
+        <ul
+          className={`list-container ${navbar ? "flex-col" : "display-none"}`}
+        >
           <li onClick={() => setNavbar(false)}>
-            <a href="#skills">Skills</a>
+            <a className="nav-link" href="#skills">
+              Skills
+            </a>
           </li>
           <li onClick={() => setNavbar(false)}>
-            <a href="#projects">Projects</a>
+            <a className="nav-link" href="#projects">
+              Projects
+            </a>
           </li>
           <li onClick={() => setNavbar(false)}>
-            <a href="#about">About</a>
+            <a className="nav-link" href="#about">
+              About
+            </a>
           </li>
           <li onClick={() => setNavbar(false)}>
-            <a href="#contact">Contact</a>
+            <a className="nav-link" href="#contact">
+              Contact
+            </a>
           </li>
         </ul>
-        <ul className={`contact-container ${navbar ? "" : "dnone"}`}>
+        <ul className={`contact-container ${navbar ? "" : "display-none"}`}>
           <li>
             <a
+              className="icon-background"
               href="https://www.linkedin.com/in/eric-shyu-105a84191/"
               target="_blank"
               rel="noreferrer"
@@ -50,6 +64,7 @@ const Header = () => {
 
           <li>
             <a
+              className="icon-background"
               href="https://github.com/pongpwner"
               target="_blank"
               rel="noreferrer"
@@ -62,7 +77,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a className="email" href="mailto: ericshyu98@gmail.com">
+            <a
+              className="email icon-background"
+              href="mailto: ericshyu98@gmail.com"
+            >
               <img className="icon" alt="email" src={email}></img>
             </a>
           </li>

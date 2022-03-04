@@ -1,77 +1,8 @@
-@import "../../colors.scss";
+@use "../../scss/mixins" as *;
+@use "../../scss/variables" as *;
 .about {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   min-height: calc(100vh - 60px);
   height: 100%;
   background-color: $background1;
-  margin-top: 5%;
-  h1 {
-    padding-top: 60px;
-    font-size: 3rem;
-  }
-  p {
-    font-size: 2rem;
-    width: 60%;
-    opacity: 0.8;
-  }
-}
-
-@media (max-width: 1100px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: #171d20;
-
-    h1 {
-      margin-top: 5%;
-      font-size: 3rem;
-    }
-    p {
-      font-size: 2rem;
-      width: 80%;
-      opacity: 0.8;
-    }
-  }
-}
-@media (orientation: landscape) and (max-width: 900px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: calc(100vh - 60px);
-    height: 100%;
-    background-color: #171d20;
-    margin-top: 5%;
-    h1 {
-      padding-top: 60px;
-      font-size: 3rem;
-    }
-    p {
-      font-size: 2rem;
-      width: 80%;
-      opacity: 0.8;
-    }
-  }
-}
-@media (max-width: 480px) {
-  .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    background-color: #171d20;
-    margin-top: 5%;
-    h1 {
-      font-size: 2rem;
-    }
-    p {
-      font-size: 1.2rem;
-      width: 90%;
-      opacity: 0.8;
-    }
-  }
 }

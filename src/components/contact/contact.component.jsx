@@ -6,9 +6,9 @@ import email from "../../assets/pictures/email.png";
 import resume from "../../assets/pictures/resume.png";
 
 const Contact = () => (
-  <section className="contact" id="contact">
-    <h1>Contact / Links</h1>
-    <ul className="contact-list">
+  <section className="contact flex-col" id="contact">
+    <h1 className="heading1 ">Contact / Links</h1>
+    <ul className="contact-list flex-row">
       <li>
         <a
           href="https://www.linkedin.com/in/eric-shyu-105a84191/"
@@ -16,7 +16,7 @@ const Contact = () => (
           rel="noreferrer"
         >
           <img
-            className="linkedin-icon"
+            className="linkedin-icon icon"
             src={linkedin}
             alt="linkedin icon"
           ></img>
@@ -25,7 +25,11 @@ const Contact = () => (
 
       <li>
         <a href="https://github.com/pongpwner" target="_blank" rel="noreferrer">
-          <img className="github-icon" src={github} alt="github icon"></img>
+          <img
+            className="github-icon icon"
+            src={github}
+            alt="github icon"
+          ></img>
         </a>
       </li>
       <li>

@@ -22,7 +22,7 @@ const skills = [
 ];
 const Skills = () => (
   <section className="skills" id="skills">
-    <h1>Skills</h1>
+    <h1 className="heading1 u-margin-top-small">Skills</h1>
     <div className="skills-container">
       {skills.map((skill) => (
         <Skill key={skill.id} name={skill.name} url={skill.url}></Skill>
