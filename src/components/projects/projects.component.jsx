@@ -3,6 +3,7 @@ import "./projects.styles.scss";
 import Project from "../project/project.component";
 import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 import genshinCompanion from "../../assets/pictures/genshin-companion.png";
+import pokedex from "../../assets/pictures/pokedex.png";
 const projects = [
   {
     name: "Online Garage Sale",
@@ -23,15 +24,17 @@ const projects = [
         <p>
           What I learned: I got a lot of practice building resuable components
           with React. I used SCSS to make styling components easier. I use redux
-          to store the cart, user data, and shop data. Using redux allows these
-          states to be accessible in any component. I learned a lot about sagas
-          building this project. I learned about the factory function and how it
-          yields. Sagas is very useful for calling different combinations of
-          actions. One example of this is dispatching the userSignIn action in a
-          saga after the userSignUp action is dispatched. I learned how to
-          authenticate users with firebase, and how to store data in firestore.
-          I used the stripe payments api to build the ui for the payments
-          section. Still need to add backend to accept payments.
+          to store the state of the cart, user data, and shop data. Using redux
+          allows these states to be accessible in any component. I also used
+          sagas along with redux to build this project. Sagas is very powerful
+          and makes code easy to test with the help of redux logger keeping
+          track of the state step by step. Sagas is very useful for calling
+          different combinations of actions. One example of this is in my
+          project is dispatching the userSignIn action in a saga after the
+          userSignUp action is dispatched. I learned how to authenticate users
+          with firebase, and how to store data in firestore. I used the stripe
+          payments api to build the ui for the payments section. Still need to
+          add backend to accept payments.
         </p>
       </div>
     ),
@@ -57,17 +60,39 @@ const projects = [
         </p>
         <p>
           What I learned: This is my first project I created using react class
-          components and redux. The Weapon component is a class component where
-          the state is stored in the component. The Character and Talent have
-          their state stored in their respective reducers. The I also used the
-          reselect library for selectors to use in mapStateToProps. I learned to
-          use a folder structure with components, pages, redux, and images all
-          having their own folder. Each component has its own folder with a
-          stylesheet to go with it. I also learned how to use react-router to
-          link to different pages on my app. I later replaced the class
-          components with functional components and using redux to store state.
-          I also experimented with using hooks for certain components that did
-          not need state used in other places.
+          components. I later refactored it into storing the state with redux.
+          The I used the reselect library to create selectors to grab pieces of
+          state to use in mapStateToProps. I learned to use a scalable folder
+          structure with components, pages, redux, and images all having their
+          own folder. Each component has its own folder with a stylesheet to go
+          with it. I used react react-router to link to different pages on my
+          app. I used hooks for certain components that did not need their state
+          used in other places. I used redux-thunk to handle api calls to the
+          genshin dev api. I experimented with jest to test my calculation
+          functions.
+        </p>
+      </div>
+    ),
+  },
+  {
+    name: "Pokedex",
+    github: "https://github.com/pongpwner/pokedex",
+    description: "See all Pokemon and their information",
+    link: pokedex,
+    live: "https://pongpwner.github.io/pokedex/",
+    id: 3,
+    technologies: "javascript, react, pokeapi",
+    modalDescription: (
+      <div className="description">
+        <p>
+          About: Displays all pokemon with their information. The info cards
+          flip over when you hover on them. The info cards open a modal with
+          more additional information when clicked on.
+        </p>
+        <p>
+          What I learned: I got practice with css animations by making the cards
+          flip. I got practice using async functions from making api calls to
+          the pokeapi.
         </p>
       </div>
     ),
