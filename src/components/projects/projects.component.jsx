@@ -92,7 +92,7 @@ const projects = [
         <p>
           What I learned: I got practice with css animations by making the cards
           flip. I got practice using async functions from making api calls to
-          the pokeapi.
+          the pokeapi. I stored the state with the react context api.
         </p>
       </div>
     ),

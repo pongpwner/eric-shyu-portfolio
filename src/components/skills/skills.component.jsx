@@ -9,6 +9,10 @@ import sass from "../../assets/pictures/sass.svg";
 import git from "../../assets/pictures/git-icon.svg";
 import redux from "../../assets/pictures/redux.svg";
 import reduxSaga from "../../assets/pictures/redux-saga.svg";
+import express from "../../assets/pictures/express.svg";
+import mongodb from "../../assets/pictures/mongodb.svg";
+import nodejs from "../../assets/pictures/nodejs-icon.svg";
+import typescript from "../../assets/pictures/typescript-icon.svg";
 
 const skills = [
   { name: "css", url: css, id: 0 },
@@ -19,6 +23,10 @@ const skills = [
   { name: "redux-sagas", url: reduxSaga, id: 7 },
   { name: "sass", url: sass, id: 4 },
   { name: "git", url: git, id: 5 },
+  { name: "express", url: express, id: 6 },
+  { name: "nodejs", url: nodejs, id: 7 },
+  { name: "mongodb", url: mongodb, id: 8 },
+  { name: "typescript", url: typescript, id: 9 },
 ];
 const Skills = () => (
   <section className="skills" id="skills">
