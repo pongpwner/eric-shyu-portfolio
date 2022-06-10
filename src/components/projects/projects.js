@@ -44,7 +44,7 @@ export const projects = [
     github: "https://github.com/pongpwner/genshin-calculator",
     description: "companion web app for the game Genshin Impact",
     link: genshinCompanion,
-    live: "https://629b3609fd78675f58ac9af7--elegant-cranachan-8da561.netlify.app/",
+    live: "https://elegant-cranachan-8da561.netlify.app/",
     id: 2,
 
     technologies:
