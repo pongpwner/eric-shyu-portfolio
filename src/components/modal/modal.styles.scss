@@ -28,6 +28,13 @@
       left: 10vw;
       width: 80vw;
     }
+    @include responsive(phone-land) {
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0;
+    }
     @include responsive(phone) {
       width: 100%;
       top: 0;

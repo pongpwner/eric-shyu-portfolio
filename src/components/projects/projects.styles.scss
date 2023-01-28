@@ -13,13 +13,13 @@
 
   .project-list {
     margin-top: 1.5rem;
-    width: 75%;
+    width: 60%;
     display: grid;
     grid-gap: 2.5rem;
     grid-template-columns: 1fr 1fr;
 
     @include responsive(tab-land) {
-      width: 75%;
+      width: 80%;
     }
     @include responsive(tab-port) {
       width: 92%;
@@ -27,8 +27,9 @@
       grid-gap: 2.5rem;
     }
     @include responsive(phone) {
+      width: 100%;
+      grid-gap: 3rem;
       margin-left: 0%;
-      display: block;
     }
   }
   .link-container {
