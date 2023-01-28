@@ -10,7 +10,7 @@ export const projects = [
     github: "https://github.com/pongpwner/online-garage-sale",
     description: "ecommerce website",
     link: onlineGarageSale,
-    live: "https://pong-online-garage-sale.herokuapp.com/",
+    live: "https://eloquent-jelly-7d23fd.netlify.app/",
     id: 1,
     technologies:
       "javascript, react, redux, redux sagas, react-router, firebase, stripe payments",
