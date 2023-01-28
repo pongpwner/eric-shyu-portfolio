@@ -1,6 +1,7 @@
 import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 import genshinCompanion from "../../assets/pictures/genshin-companion.png";
 import pokedex from "../../assets/pictures/pokedex.png";
+import memoryGame from "../../assets/pictures/memory-game.png";
 import rps from "../../assets/pictures/rps.png";
 
 export const projects = [
@@ -110,6 +111,32 @@ export const projects = [
         <p>
           What I learned: This project let me practice coding a predesigned
           website and was good css practice.
+        </p>
+      </div>
+    ),
+  },
+  {
+    name: "Anime Character Memory Game",
+    github: "https://github.com/pongpwner/anime-character-memory-game",
+    description: "Do not click the same character twice!",
+    link: memoryGame,
+    live: "https://anime-character-memory-game.netlify.app/",
+    id: 5,
+    technologies: "javascript, react, styled components ",
+    modalDescription: (
+      <div className="description">
+        <p>
+          About: Play a game that tests your memory. Don't click the same
+          character twice.
+        </p>
+        <p>
+          What I learned: Some notable skills I practiced while making this
+          project are using styled components, array manipulation, and state
+          management. State management was important for keeping track of the
+          score, game settings, and which characters have been clicked. The
+          character board is made of an array of character tiles, and each time
+          a tile is clicked, the array is shuffled. I also learned typescript by
+          refactoring this from javascript to typescript.
         </p>
       </div>
     ),
