@@ -11,11 +11,11 @@
     flex-direction: column;
     position: fixed;
     z-index: 37;
-    top: 10vh;
-    left: 12.5vw;
+    top: 15vh;
+    left: 20vw;
     background-color: $background3;
-    width: 75vw;
-    height: 80vh;
+    width: 60vw;
+    height: 70vh;
     overflow: scroll;
     border-radius: 10px;
     font-size: 1.4rem;
@@ -23,6 +23,18 @@
     padding-bottom: 2rem;
     animation-name: scale-from-0;
     animation-duration: 0.2s;
+    @include responsive(tab-land) {
+      top: 15vh;
+      left: 10vw;
+      width: 80vw;
+    }
+    @include responsive(phone) {
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      border-radius: 0;
+    }
   }
   .close-button {
     position: fixed;
@@ -32,8 +44,8 @@
     border: none;
     font-size: 2rem;
     align-self: flex-end;
-    margin: 0.2rem;
-    border-radius: 3px;
+    margin: 0;
+
     &:hover {
       cursor: pointer;
       background-color: red;
@@ -105,7 +117,7 @@
     }
   }
   .project-image {
-    width: 100%;
+    width: 90%;
   }
   .group1 {
     display: flex;
