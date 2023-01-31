@@ -4,6 +4,7 @@ import linkedin from "../../assets/pictures/linkedin-icon.svg";
 import github from "../../assets/pictures/github-icon.svg";
 import email from "../../assets/pictures/email.png";
 import resume from "../../assets/pictures/resume.png";
+import EricShyuResume from "../../assets/documents/EricShyuResume.pdf";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
@@ -82,6 +83,11 @@ const Header = () => {
               href="mailto: ericshyu98@gmail.com"
             >
               <img className="icon" alt="email" src={email}></img>
+            </a>
+          </li>
+          <li>
+            <a href={EricShyuResume} target="_blank" rel="noreferrer">
+              <img className="icon" alt="resume" src={resume}></img>
             </a>
           </li>
         </ul>
