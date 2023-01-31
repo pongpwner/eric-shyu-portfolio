@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eric-shyu-portfolio/static/css/main.11a35315.chunk.css",
-    "main.js": "/eric-shyu-portfolio/static/js/main.14cd568a.chunk.js",
-    "main.js.map": "/eric-shyu-portfolio/static/js/main.14cd568a.chunk.js.map",
+    "main.css": "/eric-shyu-portfolio/static/css/main.ef8c5d3b.chunk.css",
+    "main.js": "/eric-shyu-portfolio/static/js/main.461d610c.chunk.js",
+    "main.js.map": "/eric-shyu-portfolio/static/js/main.461d610c.chunk.js.map",
     "runtime-main.js": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js",
     "runtime-main.js.map": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js.map",
     "static/js/2.5452374f.chunk.js": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js",
@@ -10,8 +10,9 @@
     "static/js/3.17d0edf4.chunk.js": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js",
     "static/js/3.17d0edf4.chunk.js.map": "/eric-shyu-portfolio/static/js/3.17d0edf4.chunk.js.map",
     "index.html": "/eric-shyu-portfolio/index.html",
-    "static/css/main.11a35315.chunk.css.map": "/eric-shyu-portfolio/static/css/main.11a35315.chunk.css.map",
+    "static/css/main.ef8c5d3b.chunk.css.map": "/eric-shyu-portfolio/static/css/main.ef8c5d3b.chunk.css.map",
     "static/js/2.5452374f.chunk.js.LICENSE.txt": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js.LICENSE.txt",
+    "static/media/EricShyuResume.85042cdf.pdf": "/eric-shyu-portfolio/static/media/EricShyuResume.85042cdf.pdf",
     "static/media/css-3.92661138.svg": "/eric-shyu-portfolio/static/media/css-3.92661138.svg",
     "static/media/express.7e85c513.svg": "/eric-shyu-portfolio/static/media/express.7e85c513.svg",
     "static/media/face.ef6cb928.jpg": "/eric-shyu-portfolio/static/media/face.ef6cb928.jpg",
@@ -24,7 +25,7 @@
     "static/media/memory-game.fd763064.png": "/eric-shyu-portfolio/static/media/memory-game.fd763064.png",
     "static/media/mongodb.153b7b44.svg": "/eric-shyu-portfolio/static/media/mongodb.153b7b44.svg",
     "static/media/nodejs-icon.3dc364b8.svg": "/eric-shyu-portfolio/static/media/nodejs-icon.3dc364b8.svg",
-    "static/media/online-garage-sale.3c974c84.png": "/eric-shyu-portfolio/static/media/online-garage-sale.3c974c84.png",
+    "static/media/online-garage-sale.7ae5b54f.png": "/eric-shyu-portfolio/static/media/online-garage-sale.7ae5b54f.png",
     "static/media/pokedex.220e64ab.png": "/eric-shyu-portfolio/static/media/pokedex.220e64ab.png",
     "static/media/react.19465659.svg": "/eric-shyu-portfolio/static/media/react.19465659.svg",
     "static/media/redux-saga.b2d1d0d3.svg": "/eric-shyu-portfolio/static/media/redux-saga.b2d1d0d3.svg",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcb8ca9d.js",
     "static/js/2.5452374f.chunk.js",
-    "static/css/main.11a35315.chunk.css",
-    "static/js/main.14cd568a.chunk.js"
+    "static/css/main.ef8c5d3b.chunk.css",
+    "static/js/main.461d610c.chunk.js"
   ]
 }
