@@ -1,8 +1,11 @@
 import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 import genshinCompanion from "../../assets/pictures/genshin-companion.png";
 import pokedex from "../../assets/pictures/pokedex.png";
+
 import memoryGame from "../../assets/pictures/memory-game.png";
 import rps from "../../assets/pictures/rps.png";
+import pokedexDemo from "../../assets/gif/pokedexDemo.gif";
+import memoryGameDemo from "../../assets/gif/memoryGameDemo.gif";
 
 export const projects = [
   {
@@ -78,7 +81,7 @@ export const projects = [
     name: "Pokedex",
     github: "https://github.com/pongpwner/pokedex",
     description: "See all Pokemon and their information",
-    link: pokedex,
+    link: pokedexDemo,
     live: "https://pongpwner.github.io/pokedex/",
     id: 3,
     technologies: "javascript, react, pokeapi",
@@ -119,7 +122,7 @@ export const projects = [
     name: "Anime Character Memory Game",
     github: "https://github.com/pongpwner/anime-character-memory-game",
     description: "Do not click the same character twice!",
-    link: memoryGame,
+    link: memoryGameDemo,
     live: "https://anime-character-memory-game.netlify.app/",
     id: 5,
     technologies: "javascript, react, styled components ",
