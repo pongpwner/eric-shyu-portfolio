@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/eric-shyu-portfolio/static/css/main.ef8c5d3b.chunk.css",
-    "main.js": "/eric-shyu-portfolio/static/js/main.c524ba8c.chunk.js",
-    "main.js.map": "/eric-shyu-portfolio/static/js/main.c524ba8c.chunk.js.map",
+    "main.js": "/eric-shyu-portfolio/static/js/main.d005dc70.chunk.js",
+    "main.js.map": "/eric-shyu-portfolio/static/js/main.d005dc70.chunk.js.map",
     "runtime-main.js": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js",
     "runtime-main.js.map": "/eric-shyu-portfolio/static/js/runtime-main.fcb8ca9d.js.map",
     "static/js/2.5452374f.chunk.js": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.ef8c5d3b.chunk.css.map": "/eric-shyu-portfolio/static/css/main.ef8c5d3b.chunk.css.map",
     "static/js/2.5452374f.chunk.js.LICENSE.txt": "/eric-shyu-portfolio/static/js/2.5452374f.chunk.js.LICENSE.txt",
     "static/media/EricShyuResume.85042cdf.pdf": "/eric-shyu-portfolio/static/media/EricShyuResume.85042cdf.pdf",
+    "static/media/blog.770c708d.png": "/eric-shyu-portfolio/static/media/blog.770c708d.png",
     "static/media/css-3.92661138.svg": "/eric-shyu-portfolio/static/media/css-3.92661138.svg",
     "static/media/express.7e85c513.svg": "/eric-shyu-portfolio/static/media/express.7e85c513.svg",
     "static/media/face.ef6cb928.jpg": "/eric-shyu-portfolio/static/media/face.ef6cb928.jpg",
@@ -22,12 +23,10 @@
     "static/media/html-5.04ad4ab8.svg": "/eric-shyu-portfolio/static/media/html-5.04ad4ab8.svg",
     "static/media/javascript.1d3d2879.svg": "/eric-shyu-portfolio/static/media/javascript.1d3d2879.svg",
     "static/media/linkedin-icon.a664ab45.svg": "/eric-shyu-portfolio/static/media/linkedin-icon.a664ab45.svg",
-    "static/media/memory-game.fd763064.png": "/eric-shyu-portfolio/static/media/memory-game.fd763064.png",
     "static/media/memoryGameDemo.64b8f79d.gif": "/eric-shyu-portfolio/static/media/memoryGameDemo.64b8f79d.gif",
     "static/media/mongodb.153b7b44.svg": "/eric-shyu-portfolio/static/media/mongodb.153b7b44.svg",
     "static/media/nodejs-icon.3dc364b8.svg": "/eric-shyu-portfolio/static/media/nodejs-icon.3dc364b8.svg",
     "static/media/online-garage-sale.7ae5b54f.png": "/eric-shyu-portfolio/static/media/online-garage-sale.7ae5b54f.png",
-    "static/media/pokedex.220e64ab.png": "/eric-shyu-portfolio/static/media/pokedex.220e64ab.png",
     "static/media/pokedexDemo.69b77f88.gif": "/eric-shyu-portfolio/static/media/pokedexDemo.69b77f88.gif",
     "static/media/react.19465659.svg": "/eric-shyu-portfolio/static/media/react.19465659.svg",
     "static/media/redux-saga.b2d1d0d3.svg": "/eric-shyu-portfolio/static/media/redux-saga.b2d1d0d3.svg",
@@ -40,6 +39,6 @@
     "static/js/runtime-main.fcb8ca9d.js",
     "static/js/2.5452374f.chunk.js",
     "static/css/main.ef8c5d3b.chunk.css",
-    "static/js/main.c524ba8c.chunk.js"
+    "static/js/main.d005dc70.chunk.js"
   ]
 }
