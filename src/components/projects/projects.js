@@ -1,8 +1,9 @@
 import onlineGarageSale from "../../assets/pictures/online-garage-sale.png";
 import genshinCompanion from "../../assets/pictures/genshin-companion.png";
-import pokedex from "../../assets/pictures/pokedex.png";
+import blog from "../../assets/pictures/blog.png";
+//import pokedex from "../../assets/pictures/pokedex.png";
 
-import memoryGame from "../../assets/pictures/memory-game.png";
+//import memoryGame from "../../assets/pictures/memory-game.png";
 import rps from "../../assets/pictures/rps.png";
 import pokedexDemo from "../../assets/gif/pokedexDemo.gif";
 import memoryGameDemo from "../../assets/gif/memoryGameDemo.gif";
@@ -140,6 +141,27 @@ export const projects = [
           character board is made of an array of character tiles, and each time
           a tile is clicked, the array is shuffled. I also learned typescript by
           refactoring this from javascript to typescript.
+        </p>
+      </div>
+    ),
+  },
+  {
+    name: "Blog",
+    github: "https://github.com/pongpwner/blog-front-end",
+    description: "Front End Blog",
+    link: blog,
+    live: "https://bucolic-torte-a82b04.netlify.app",
+    id: 6,
+    technologies: "javascript, react, sass, node, passport, JWT",
+    modalDescription: (
+      <div className="description">
+        <p>About: Fullstack blog project.</p>
+        <p>
+          What I learned: This is my first fullstack project and I learned a lot
+          from making this blog. I learned the structure of RESTful APIs and how
+          to restrict access to authorized users. I also learned about mongodb
+          and mongoose. I also learned about restricting which domains can
+          consume the API with cors.
         </p>
       </div>
     ),
