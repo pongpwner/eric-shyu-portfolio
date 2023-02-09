@@ -157,11 +157,11 @@ export const projects = [
       <div className="description">
         <p>About: Fullstack blog project.</p>
         <p>
-          What I learned: This is my first fullstack project and I learned a lot
-          from making this blog. I learned the structure of RESTful APIs and how
-          to restrict access to authorized users. I also learned about mongodb
-          and mongoose. I also learned about restricting which domains can
-          consume the API with cors.
+          I learned a lot from making this fullstack project. This was good
+          practice for wrting a RESTful API, and using JWT for authorization for
+          protected routes. I also learned about cors to whitelist the front end
+          and CMS to have access to the api. Many of the API functions rely on
+          using mongodb and mongoose.
         </p>
       </div>
     ),
