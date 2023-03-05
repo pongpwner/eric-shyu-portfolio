@@ -1,25 +1,32 @@
 import React from "react";
 import "./about.styles.scss";
 
+import EricShyuResume from "../../assets/documents/EricShyuResume.pdf";
+
 const About = () => (
   <section className="about flex-col " id="about">
     <h1 className="heading1 u-margin-top-small">About</h1>
+
     <p className="paragraph">
-      My name is Eric Shyu, I am from North Carolina. I am a front end developer
-      with a Computer Science degree from UNC Chapel Hill. Since graduation I
-      have been working on various projects and taking online courses to gain
-      experience and further my knowledge on front end development.
+      My name is Eric Shyu. I am a front end developer with a Computer Science
+      degree from UNC Chapel Hill. Take a look at my{" "}
+      <a
+        className="resume"
+        href={EricShyuResume}
+        target="_blank"
+        rel="noreferrer"
+      >
+        resume.
+      </a>
     </p>
     <p className="paragraph">
-      I grew up using the internet and I have enjoyed seeing the ui/ux of
-      websites I use evolve. One of my favorite websites is youtube. I have been
-      a frequent user of the site since 2005, and I have seen the many changes
-      it has gone through. It started out unpolished , but now the ux/ui is so
-      clean. I can also certainly remember experiences where navigating a
-      website was counterintuitive. It is a shame when a website is not easy to
-      navigate and causes the user frustration. I love the internet and I want
-      to contribute to it by creating beautiful websites with a great user
-      experience.
+      I am a self-motivated and curious individual who enjoys tackling complex
+      challenges and finding creative solutions to problems. I have a strong
+      foundation in front end technologies such as HTML, CSS, JavaScript, and
+      React. I am also familiar with back end technologies, such as Node,
+      Express, and PostgreSQL. I am always eager to learn new technologies and
+      techniques to enhance my skills and take my development capabilities to
+      the next level.
     </p>
     <p className="paragraph">
       Coding aside I enjoy playing video games, watching anime, exercising, and
