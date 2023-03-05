@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef8c5d3b.chunk.css",
-    "main.js": "/static/js/main.3092aace.chunk.js",
-    "main.js.map": "/static/js/main.3092aace.chunk.js.map",
+    "main.css": "/static/css/main.5b0f0062.chunk.css",
+    "main.js": "/static/js/main.99d85d9b.chunk.js",
+    "main.js.map": "/static/js/main.99d85d9b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3e70ad8f.js",
     "runtime-main.js.map": "/static/js/runtime-main.3e70ad8f.js.map",
     "static/js/2.5452374f.chunk.js": "/static/js/2.5452374f.chunk.js",
@@ -10,12 +10,12 @@
     "static/js/3.17d0edf4.chunk.js": "/static/js/3.17d0edf4.chunk.js",
     "static/js/3.17d0edf4.chunk.js.map": "/static/js/3.17d0edf4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ef8c5d3b.chunk.css.map": "/static/css/main.ef8c5d3b.chunk.css.map",
+    "static/css/main.5b0f0062.chunk.css.map": "/static/css/main.5b0f0062.chunk.css.map",
     "static/js/2.5452374f.chunk.js.LICENSE.txt": "/static/js/2.5452374f.chunk.js.LICENSE.txt",
-    "static/media/EricShyuResume.85042cdf.pdf": "/static/media/EricShyuResume.85042cdf.pdf",
+    "static/media/EricShyuResume.a9045427.pdf": "/static/media/EricShyuResume.a9045427.pdf",
     "static/media/blog.770c708d.png": "/static/media/blog.770c708d.png",
     "static/media/css-3.92661138.svg": "/static/media/css-3.92661138.svg",
-    "static/media/express.778883a8.svg": "/static/media/express.778883a8.svg",
+    "static/media/express.7e85c513.svg": "/static/media/express.7e85c513.svg",
     "static/media/face.ef6cb928.jpg": "/static/media/face.ef6cb928.jpg",
     "static/media/genshin-companion.84906cc6.png": "/static/media/genshin-companion.84906cc6.png",
     "static/media/git-icon.8497c3c4.svg": "/static/media/git-icon.8497c3c4.svg",
@@ -24,21 +24,23 @@
     "static/media/javascript.1d3d2879.svg": "/static/media/javascript.1d3d2879.svg",
     "static/media/linkedin-icon.a664ab45.svg": "/static/media/linkedin-icon.a664ab45.svg",
     "static/media/memoryGameDemo.64b8f79d.gif": "/static/media/memoryGameDemo.64b8f79d.gif",
-    "static/media/mongodb.1d06b1a7.svg": "/static/media/mongodb.1d06b1a7.svg",
-    "static/media/nodejs-icon.cc3d45a1.svg": "/static/media/nodejs-icon.cc3d45a1.svg",
+    "static/media/mongodb.153b7b44.svg": "/static/media/mongodb.153b7b44.svg",
+    "static/media/nodejs-icon.3dc364b8.svg": "/static/media/nodejs-icon.3dc364b8.svg",
     "static/media/online-garage-sale.7ae5b54f.png": "/static/media/online-garage-sale.7ae5b54f.png",
     "static/media/pokedexDemo.69b77f88.gif": "/static/media/pokedexDemo.69b77f88.gif",
+    "static/media/postgresql.7c0ecebe.svg": "/static/media/postgresql.7c0ecebe.svg",
     "static/media/react.19465659.svg": "/static/media/react.19465659.svg",
     "static/media/redux-saga.b2d1d0d3.svg": "/static/media/redux-saga.b2d1d0d3.svg",
     "static/media/redux.546485b8.svg": "/static/media/redux.546485b8.svg",
     "static/media/rps.5e07cc6e.png": "/static/media/rps.5e07cc6e.png",
     "static/media/sass.3572f53e.svg": "/static/media/sass.3572f53e.svg",
-    "static/media/typescript-icon.f3bc0fd9.svg": "/static/media/typescript-icon.f3bc0fd9.svg"
+    "static/media/typescript-icon.17d5e87e.svg": "/static/media/typescript-icon.17d5e87e.svg",
+    "static/media/wordpress-icon.50b2c04c.svg": "/static/media/wordpress-icon.50b2c04c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3e70ad8f.js",
     "static/js/2.5452374f.chunk.js",
-    "static/css/main.ef8c5d3b.chunk.css",
-    "static/js/main.3092aace.chunk.js"
+    "static/css/main.5b0f0062.chunk.css",
+    "static/js/main.99d85d9b.chunk.js"
   ]
 }
