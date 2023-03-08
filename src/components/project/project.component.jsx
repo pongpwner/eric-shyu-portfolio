@@ -42,7 +42,7 @@ const Project = ({
                   target="_blank"
                   rel="noreferrer"
                 >
-                  live
+                  demo
                 </a>
               </li>
             ) : null}
@@ -79,7 +79,7 @@ const Project = ({
                 target="_blank"
                 rel="noreferrer"
               >
-                live
+                demo
               </a>
             </li>
           ) : null}
